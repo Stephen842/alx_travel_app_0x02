@@ -1,6 +1,14 @@
-*.env
-__pycache_
+# Environment variables
+.env
 
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Django migrations
+*/migrations/*.pyc
+*/migrations/__pycache__/
+
+# Database
 *.sqlite3
-
-_
